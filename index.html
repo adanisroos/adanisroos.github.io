@@ -1,0 +1,1130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>快乐久久长寿久久_中老年健康生活视频_养生运动与乐活社区</title>
+<meta name="description" content="快乐久久长寿久久是一个面向中老年群体的健康生活视频品牌，提供养生食谱、慢病管理、太极八段锦教学、旅居康养与乐活社区故事等具体视频条目，适合关注健康养老与活力退休生活的人群观看。">
+<meta name="keywords" content="中老年养生视频,太极八段锦教学,慢病管理食谱,旅居康养,退休乐活社区">
+<style>
+:root{
+  --brand:#1f7a5c;
+  --brand-deep:#14523e;
+  --brand-soft:#e8f4ee;
+  --accent:#d9822b;
+  --accent-soft:#fdf1e2;
+  --ink:#1c2521;
+  --ink-2:#41504a;
+  --ink-3:#71807a;
+  --line:#dbe5e0;
+  --bg:#f7faf8;
+  --panel:#ffffff;
+  --panel-2:#f1f6f3;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow-sm:0 1px 3px rgba(20,60,45,.08);
+  --shadow:0 6px 22px rgba(20,60,45,.10);
+  --announce-h:38px;
+  --header-h:64px;
+  --font:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);
+  line-height:1.72;font-size:15.5px;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:var(--brand-deep);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 12px;padding-left:1.2em}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+/* ---------- 吸顶公告条 ---------- */
+.announce{
+  position:sticky;top:0;z-index:60;height:var(--announce-h);
+  background:linear-gradient(90deg,var(--brand-deep),var(--brand));
+  color:#eafaf3;font-size:13.5px;display:flex;align-items:center;
+}
+.announce .wrap{
+  display:flex;align-items:center;gap:10px;width:100%;
+  padding:0 18px;overflow:hidden;
+}
+.announce .tag{
+  flex:none;background:#ffd9a8;color:#5a3310;font-weight:700;
+  padding:1px 8px;border-radius:20px;font-size:12px;letter-spacing:.5px;
+}
+.announce .msg{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.announce a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+
+/* ---------- 页头 ---------- */
+.site-header{
+  position:sticky;top:var(--announce-h);z-index:55;height:var(--header-h);
+  background:rgba(255,255,255,.96);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);box-shadow:var(--shadow-sm);
+}
+.header-inner{
+  max-width:1360px;margin:0 auto;height:100%;padding:0 18px;
+  display:flex;align-items:center;gap:22px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{width:38px;height:38px;flex:none}
+.brand-text{font-size:18.5px;font-weight:800;letter-spacing:.5px;color:var(--brand-deep)}
+.brand-sub{display:block;font-size:10.5px;font-weight:500;letter-spacing:2px;color:var(--ink-3);line-height:1}
+.main-nav{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.main-nav a{
+  padding:6px 11px;border-radius:20px;font-size:14px;color:var(--ink-2);
+  white-space:nowrap;
+}
+.main-nav a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.header-cta{
+  flex:none;background:var(--brand);color:#fff;padding:8px 16px;border-radius:22px;
+  font-size:14px;font-weight:600;box-shadow:var(--shadow-sm);
+}
+.header-cta:hover{background:var(--brand-deep);text-decoration:none;color:#fff}
+.nav-toggle{
+  display:none;border:1px solid var(--line);background:#fff;border-radius:9px;
+  padding:7px 11px;font-size:14px;color:var(--ink-2);cursor:pointer;
+}
+
+/* ---------- 布局骨架 ---------- */
+.container{max-width:1360px;margin:0 auto;padding:0 18px}
+.layout{
+  display:grid;grid-template-columns:186px minmax(0,1fr) 268px;
+  gap:26px;align-items:start;padding:26px 0 10px;
+}
+.layout > *{min-width:0}
+section[id]{scroll-margin-top:calc(var(--announce-h) + var(--header-h) + 14px)}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  background:
+    radial-gradient(1100px 340px at 88% -10%,rgba(217,130,43,.16),transparent 60%),
+    linear-gradient(160deg,#eef8f2 0%,#f7faf8 55%,#fdf6ec 100%);
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{
+  max-width:1360px;margin:0 auto;padding:44px 18px 46px;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:40px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;background:#fff;
+  border:1px solid var(--line);color:var(--brand-deep);font-size:12.5px;
+  font-weight:600;letter-spacing:1px;padding:5px 13px;border-radius:20px;
+  box-shadow:var(--shadow-sm);margin-bottom:16px;
+}
+.hero-eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--accent);display:inline-block}
+.hero h1{
+  font-size:clamp(30px,4.2vw,46px);letter-spacing:2px;color:var(--brand-deep);
+  margin-bottom:14px;
+}
+.hero-lead{font-size:16.5px;color:var(--ink-2);max-width:36em;margin-bottom:10px}
+.hero-lead strong{color:var(--brand-deep)}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.btn{
+  display:inline-block;padding:11px 22px;border-radius:26px;font-size:15px;
+  font-weight:600;border:1px solid transparent;cursor:pointer;
+}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:var(--shadow)}
+.btn-primary:hover{background:var(--brand-deep);text-decoration:none;color:#fff}
+.btn-ghost{background:#fff;color:var(--brand-deep);border-color:var(--line);box-shadow:var(--shadow-sm)}
+.btn-ghost:hover{border-color:var(--brand);text-decoration:none}
+.hero-stats{display:flex;gap:26px;margin-top:26px;flex-wrap:wrap}
+.hero-stats div{font-size:12.5px;color:var(--ink-3)}
+.hero-stats b{display:block;font-size:22px;color:var(--brand-deep);line-height:1.2}
+.hero-visual{
+  background:#fff;border:1px solid var(--line);border-radius:18px;
+  padding:18px;box-shadow:var(--shadow);position:relative;
+}
+.hero-visual .frame{
+  border-radius:12px;overflow:hidden;background:var(--panel-2);position:relative;
+}
+.hero-visual img{width:100%;height:212px;object-fit:cover}
+.hero-visual .cap{
+  position:absolute;left:10px;bottom:10px;background:rgba(20,82,62,.88);
+  color:#eafaf3;font-size:12px;padding:4px 10px;border-radius:14px;
+}
+.hero-visual .rows{margin-top:12px;display:grid;gap:8px}
+.hero-visual .row{
+  display:flex;align-items:center;justify-content:space-between;gap:10px;
+  background:var(--panel-2);border-radius:9px;padding:8px 12px;font-size:13px;
+}
+.hero-visual .row span{color:var(--ink-2)}
+.hero-visual .row em{font-style:normal;color:var(--accent);font-weight:700;font-size:12px;flex:none}
+
+/* ---------- 通用面板 ---------- */
+.panel{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 20px 18px;box-shadow:var(--shadow-sm);margin-bottom:24px;
+}
+.panel-head{
+  display:flex;align-items:baseline;justify-content:space-between;gap:12px;
+  margin-bottom:14px;padding-bottom:10px;border-bottom:1px dashed var(--line);
+}
+.panel-head h2{font-size:18px;color:var(--brand-deep);letter-spacing:.5px}
+.panel-head .more{font-size:12.5px;color:var(--ink-3);flex:none}
+.section-note{font-size:13px;color:var(--ink-3);margin:-6px 0 14px}
+
+/* ---------- 左栏频道 ---------- */
+.side-left .panel{padding:16px 14px}
+.channel-title{
+  font-size:12px;letter-spacing:2px;color:var(--ink-3);font-weight:700;
+  margin-bottom:10px;
+}
+.channel-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.channel-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:8px 10px;border-radius:8px;font-size:14px;color:var(--ink-2);
+}
+.channel-list a:hover{background:var(--brand-soft);color:var(--brand-deep);text-decoration:none}
+.channel-list .num{font-size:11px;color:var(--ink-3);flex:none}
+.side-left .tip{
+  margin-top:14px;padding:12px;background:var(--accent-soft);border-radius:var(--radius-sm);
+  font-size:12.5px;color:#6a4318;line-height:1.65;
+}
+
+/* ---------- 概览 ---------- */
+.overview p{color:var(--ink-2)}
+.overview .pull{
+  border-left:3px solid var(--accent);background:var(--accent-soft);
+  padding:12px 16px;border-radius:0 10px 10px 0;font-size:14px;color:#5c3c14;margin:14px 0;
+}
+
+/* ---------- 精选卡片 ---------- */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column;
+  transition:transform .18s ease,box-shadow .18s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.card .thumb{position:relative}
+.card .thumb img{width:100%;height:150px;object-fit:cover}
+.card .badge{
+  position:absolute;left:10px;top:10px;background:rgba(20,82,62,.9);color:#fff;
+  font-size:11.5px;padding:2px 9px;border-radius:12px;letter-spacing:.5px;
+}
+.card .body{padding:13px 14px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:15.5px;color:var(--ink);line-height:1.45}
+.card .desc{font-size:13px;color:var(--ink-2);line-height:1.65;margin:0;flex:1}
+.tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{
+  font-size:11.5px;color:var(--brand-deep);background:var(--brand-soft);
+  padding:2px 8px;border-radius:10px;line-height:1.7;
+}
+.card .meta{
+  display:flex;justify-content:space-between;align-items:center;gap:8px;
+  font-size:11.5px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:8px;
+}
+.card .meta b{color:var(--accent);font-size:12.5px}
+
+/* ---------- 最新更新列表 ---------- */
+.update-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.update-list li{
+  display:grid;grid-template-columns:74px minmax(0,1fr);gap:12px;
+  padding:10px 4px;border-bottom:1px dashed var(--line);align-items:baseline;
+}
+.update-list li:last-child{border-bottom:none}
+.update-list time{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.update-list .t{font-size:14.5px;font-weight:600;color:var(--ink)}
+.update-list .s{display:block;font-size:13px;color:var(--ink-3);font-weight:400;margin-top:1px}
+
+/* ---------- 分类入口 ---------- */
+.cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cat-item{
+  background:var(--panel-2);border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:12px 13px;display:block;
+}
+.cat-item:hover{border-color:var(--brand);text-decoration:none;background:#fff}
+.cat-item b{display:block;font-size:14.5px;color:var(--brand-deep);margin-bottom:3px}
+.cat-item span{font-size:12px;color:var(--ink-3);line-height:1.6}
+
+/* ---------- 深度正文 ---------- */
+.article{max-width:100%}
+.article h2{font-size:20px;color:var(--brand-deep);margin-bottom:6px}
+.article h3{
+  font-size:16px;color:var(--brand-deep);margin:22px 0 8px;
+  padding-left:11px;border-left:3px solid var(--accent);
+}
+.article p{color:var(--ink-2);font-size:14.8px}
+.article ul{color:var(--ink-2);font-size:14.8px}
+.article li{margin-bottom:6px}
+.compare{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:14px 0 18px;
+}
+.compare .box{
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px;
+  background:var(--panel-2);
+}
+.compare .box h4{font-size:14.5px;color:var(--brand-deep);margin-bottom:6px}
+.compare .box p{font-size:13.5px;margin:0;color:var(--ink-2)}
+
+/* ---------- 体验指南步骤 ---------- */
+.steps{list-style:none;margin:0;padding:0;counter-reset:step;display:grid;gap:14px}
+.steps li{
+  counter-increment:step;position:relative;padding:14px 16px 14px 58px;
+  background:var(--panel-2);border-radius:var(--radius-sm);border:1px solid var(--line);
+}
+.steps li::before{
+  content:counter(step);position:absolute;left:14px;top:14px;width:30px;height:30px;
+  border-radius:50%;background:var(--brand);color:#fff;font-weight:700;font-size:14px;
+  display:flex;align-items:center;justify-content:center;
+}
+.steps b{display:block;color:var(--brand-deep);font-size:14.5px;margin-bottom:3px}
+.steps span{font-size:13.5px;color:var(--ink-2)}
+
+/* ---------- FAQ ---------- */
+.faq details{
+  border:1px solid var(--line);border-radius:var(--radius-sm);margin-bottom:9px;
+  background:var(--panel);overflow:hidden;
+}
+.faq details[open]{border-color:var(--brand);background:#fcfefd}
+.faq summary{
+  cursor:pointer;padding:12px 16px;font-size:14.5px;font-weight:600;color:var(--ink);
+  list-style:none;position:relative;padding-right:36px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:15px;top:50%;transform:translateY(-50%);
+  font-size:19px;color:var(--brand);font-weight:400;line-height:1;
+}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 16px 14px;font-size:13.8px;color:var(--ink-2)}
+
+/* ---------- 评论 ---------- */
+.comments{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.comment{
+  background:var(--panel-2);border-radius:var(--radius-sm);padding:12px 14px;
+  border:1px solid var(--line);
+}
+.comment .who{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.avatar{
+  width:26px;height:26px;border-radius:50%;flex:none;display:flex;align-items:center;
+  justify-content:center;font-size:12px;font-weight:700;color:#fff;background:var(--brand);
+}
+.comment .name{font-size:13px;font-weight:600;color:var(--ink)}
+.comment .time{font-size:11px;color:var(--ink-3);margin-left:auto}
+.comment p{font-size:13.3px;color:var(--ink-2);margin:0;line-height:1.65}
+
+/* ---------- 资讯 ---------- */
+.news-list{display:grid;gap:12px}
+.news-item{
+  display:grid;grid-template-columns:120px minmax(0,1fr);gap:14px;
+  padding-bottom:12px;border-bottom:1px dashed var(--line);
+}
+.news-item:last-child{border-bottom:none;padding-bottom:0}
+.news-item img{width:120px;height:80px;object-fit:cover;border-radius:8px}
+.news-item h4{font-size:14.5px;color:var(--ink);margin-bottom:3px}
+.news-item .date{font-size:11.5px;color:var(--accent);font-weight:600;margin-bottom:3px;display:block}
+.news-item p{font-size:13px;color:var(--ink-3);margin:0;line-height:1.6}
+
+/* ---------- 相关推荐标签 ---------- */
+.reco-tags{display:flex;flex-wrap:wrap;gap:9px}
+.reco-tags a{
+  font-size:13px;padding:6px 13px;border-radius:18px;background:var(--panel-2);
+  border:1px solid var(--line);color:var(--ink-2);
+}
+.reco-tags a:hover{border-color:var(--brand);color:var(--brand-deep);text-decoration:none;background:#fff}
+
+/* ---------- 右栏榜单 ---------- */
+.rank-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}
+.rank-list li{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px dashed var(--line)}
+.rank-list li:last-child{border-bottom:none}
+.rank-no{
+  flex:none;width:20px;height:20px;border-radius:6px;background:var(--panel-2);
+  color:var(--ink-3);font-size:11.5px;font-weight:700;display:flex;align-items:center;
+  justify-content:center;
+}
+.rank-list li:nth-child(-n+3) .rank-no{background:var(--accent);color:#fff}
+.rank-list .rt{font-size:13.5px;color:var(--ink);line-height:1.5}
+.rank-list .rs{display:block;font-size:11.5px;color:var(--ink-3)}
+
+/* ---------- 时间线 ---------- */
+.timeline{list-style:none;margin:0;padding:0 0 0 18px;border-left:2px solid var(--line);display:grid;gap:14px}
+.timeline li{position:relative;padding-left:6px}
+.timeline li::before{
+  content:"";position:absolute;left:-25px;top:7px;width:9px;height:9px;border-radius:50%;
+  background:var(--brand);border:2px solid #fff;box-shadow:0 0 0 2px var(--brand-soft);
+}
+.timeline b{display:block;font-size:14px;color:var(--ink)}
+.timeline span{font-size:12.5px;color:var(--ink-3)}
+
+/* ---------- 页尾 ---------- */
+.site-footer{background:#123f30;color:#c9ded5;margin-top:30px;font-size:13.5px}
+.footer-inner{max-width:1360px;margin:0 auto;padding:38px 18px 22px}
+.footer-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+.footer-brand .brand-text{color:#fff;font-size:17px}
+.footer-brand p{margin-top:10px;color:#9fc0b3;font-size:13px;line-height:1.75;max-width:30em}
+.footer-col h4{font-size:13px;color:#fff;letter-spacing:1.5px;margin-bottom:10px}
+.footer-col ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.footer-col a{color:#b7d2c7;font-size:13px}
+.footer-col a:hover{color:#fff}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.14);margin-top:26px;padding-top:16px;
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  font-size:12px;color:#8fb3a5;
+}
+.footer-bottom p{margin:0}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1180px){
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr) 260px}
+  .side-left{grid-column:1 / -1}
+  .side-left .panel{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
+  .side-left .channel-list{
+    display:flex;flex-wrap:wrap;gap:6px;flex:1;min-width:260px;
+  }
+  .side-left .channel-list a{background:var(--panel-2);border:1px solid var(--line)}
+  .side-left .tip{margin-top:0;flex:1 1 240px}
+  .side-left .channel-title{width:100%;margin-bottom:0}
+  .hero-inner{grid-template-columns:1fr;gap:28px}
+  .hero-visual{order:2}
+  .footer-top{grid-template-columns:1fr 1fr}
+}
+@media (max-width:740px){
+  body{font-size:15px}
+  .announce{font-size:12.5px}
+  .announce .wrap{padding:0 12px}
+  .main-nav{display:none;position:absolute;left:0;right:0;top:var(--header-h);
+    background:#fff;border-bottom:1px solid var(--line);box-shadow:var(--shadow);
+    padding:10px 14px;flex-direction:column;gap:2px;
+  }
+  .main-nav.open{display:flex}
+  .main-nav a{padding:10px 12px;border-radius:8px}
+  .nav-toggle{display:block;margin-left:auto}
+  .header-cta{display:none}
+  .header-inner{gap:12px}
+  .layout{grid-template-columns:minmax(0,1fr);gap:0}
+  .card-grid{grid-template-columns:1fr}
+  .cat-grid{grid-template-columns:1fr 1fr}
+  .comments{grid-template-columns:1fr}
+  .compare{grid-template-columns:1fr}
+  .news-item{grid-template-columns:96px minmax(0,1fr)}
+  .news-item img{width:96px;height:66px}
+  .update-list li{grid-template-columns:64px minmax(0,1fr);gap:8px}
+  .hero-inner{padding:30px 18px 34px}
+  .hero-stats{gap:18px}
+  .footer-top{grid-template-columns:1fr;gap:20px}
+  .panel{padding:16px 15px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="announce" id="announce-bar">
+  <div class="wrap">
+    <span class="tag">本周更新</span>
+    <span class="msg">11 月 25 日新增 9 条视频：《八段锦第六式跟练版》《低盐红烧肉做法》《膝关节养护 10 分钟》已上线，<a href="/#updates">查看全部更新</a></span>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/#top" aria-label="快乐久久长寿久久 首页">
+      <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" fill="#e8f4ee"/>
+        <path d="M24 38c-8-5.4-13-10-13-16a7 7 0 0 1 13-3.6A7 7 0 0 1 37 22c0 6-5 10.6-13 16z" fill="#1f7a5c"/>
+        <path d="M24 20c0-4 2.6-7 6.4-8.2-.4 4.2-2.6 7-6.4 8.2z" fill="#d9822b"/>
+        <path d="M24 20c0-4-2.6-7-6.4-8.2.4 4.2 2.6 7 6.4 8.2z" fill="#2e9a76"/>
+      </svg>
+      <span>
+        <span class="brand-text">快乐久久长寿久久</span>
+        <span class="brand-sub">HEALTHY LIFE VIDEO</span>
+      </span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主导航">
+      <a href="/#overview">品牌概览</a>
+      <a href="/#picks">精选视频</a>
+      <a href="/#updates">最新更新</a>
+      <a href="/#categories">分类导航</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">观看指南</a>
+      <a href="/#faq">常见问答</a>
+      <a href="/#comments">观众评论</a>
+      <a href="/#news">社区资讯</a>
+    </nav>
+    <a class="header-cta" href="/#picks">开始观看</a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav">菜单</button>
+  </div>
+</header>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-eyebrow"><i></i>中老年健康生活视频品牌 · 2019 年开播</span>
+      <h1>快乐久久长寿久久</h1>
+      <p class="hero-lead">
+        我们把<strong>养生食谱、慢病管理、太极八段锦、旅居康养</strong>四件事拍成能跟着做的视频。
+        每条片子不超过 15 分钟，动作有分解、菜谱有克数、数据有出处，退休后想动起来、吃明白、走出去的人都能直接照着练。
+      </p>
+      <p class="hero-lead" style="font-size:14.5px;color:var(--ink-3)">
+        目前在更栏目 12 个，累计 1460 条视频，社区注册观众 38.6 万人，日均跟练打卡 1.2 万次。
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/#picks">看本周精选 8 条</a>
+        <a class="btn btn-ghost" href="/#guide">第一次看从哪开始</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>1460</b>条可看视频</div>
+        <div><b>12</b>个在更栏目</div>
+        <div><b>38.6万</b>注册观众</div>
+        <div><b>4.9</b>社区综合评分</div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame">
+        <img src="https://picsum.photos/seed/kuaile-changshou01/800/400" width="800" height="400" alt="清晨公园里中老年群体集体练习八段锦的晨光场景" loading="eager">
+        <span class="cap">今晨 06:40 · 八段锦晨练直播</span>
+      </div>
+      <div class="rows">
+        <div class="row"><span>今日跟练：《八段锦第六式 两手攀足》</span><em>12 分钟</em></div>
+        <div class="row"><span>今日菜谱：《低盐版冬瓜丸子汤》</span><em>少盐 2.1g</em></div>
+        <div class="row"><span>今晚 20:00：膝关节养护答疑直播</span><em>预约中</em></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="layout">
+
+    <!-- 左栏：频道索引 -->
+    <aside class="side-left">
+      <div class="panel">
+        <div class="channel-title">频道索引</div>
+        <ul class="channel-list">
+          <li><a href="/#categories">养生食谱<span class="num">186</span></a></li>
+          <li><a href="/#categories">太极八段锦<span class="num">214</span></a></li>
+          <li><a href="/#categories">慢病管理<span class="num">132</span></a></li>
+          <li><a href="/#categories">关节养护<span class="num">98</span></a></li>
+          <li><a href="/#categories">睡眠调理<span class="num">76</span></a></li>
+          <li><a href="/#categories">旅居康养<span class="num">145</span></a></li>
+          <li><a href="/#categories">乐活社区<span class="num">168</span></a></li>
+          <li><a href="/#categories">老年体检<span class="num">64</span></a></li>
+          <li><a href="/#categories">心理陪伴<span class="num">82</span></a></li>
+          <li><a href="/#categories">隔代育儿<span class="num">51</span></a></li>
+        </ul>
+        <div class="tip">
+          第一次来？先看《八段锦入门 8 式全分解》和《60 岁后三餐怎么配》，两集打底再挑别的栏目。
+        </div>
+      </div>
+    </aside>
+
+    <!-- 中栏主内容 -->
+    <main>
+
+      <!-- 1 主题领域概览 -->
+      <section class="panel overview" id="overview">
+        <div class="panel-head">
+          <h2>这个领域里都有什么</h2>
+          <span class="more">2026-11-25 更新</span>
+        </div>
+        <p>
+          快乐久久长寿久久做的不是泛泛的“养生科普”，而是把中老年日常生活拆成可执行的几块：怎么吃、怎么动、怎么睡、怎么和医生打交道、怎么把退休时间用出滋味。
+          内容方向大致分成五类。第一类是<strong>膳食与慢病饮食</strong>，覆盖低盐低脂家常菜、糖尿病一日三餐配比、高血压人群的钾摄入；第二类是<strong>传统功法与低冲击运动</strong>，八段锦、五禽戏、太极二十四式都有逐式分解和跟练版；第三类是<strong>身体机能养护</strong>，集中在膝关节、腰椎、肩颈、平衡能力这四个高发问题上；第四类是<strong>旅居与康养生活</strong>，讲清一个地方的气候、医疗配套、月均开销和适合人群；第五类是<strong>乐活社区故事</strong>，拍真实的退休生活样本——合唱团、骑行队、老年大学、乡村小院。
+        </p>
+        <p>
+          目前值得关注的几条线：八段锦栏目在 11 月完成了全 8 式的“慢速分解 + 正常速跟练”双版本重制，适合零基础的人从头跟；慢病饮食栏目新上线了《血糖生成指数家常对照表》系列，把常见主食按 GI 值排了序；旅居栏目刚结束云南腾冲、广西北海两地的实地拍摄，给出了 11 月淡季的真实月租与门诊挂号体验；乐活社区则在连载“退休第一年”人物纪录，已更新到第 7 位主人公。
+        </p>
+        <div class="pull">
+          一句话判断标准：一条视频如果看完你还能复述出具体动作、具体克数或具体地点，它就值得存下来；只剩“要多运动多喝水”的，可以直接跳过。
+        </div>
+      </section>
+
+      <!-- 2 精选内容推荐 -->
+      <section class="panel" id="picks">
+        <div class="panel-head">
+          <h2>本周精选 8 条</h2>
+          <span class="more">按社区收藏量排序</span>
+        </div>
+        <p class="section-note">每条都标了时长与适合人群，点进去能直接跟练或照做。</p>
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/baduanjin-jingxuan07/400/300" width="400" height="300" alt="清晨公园中老年人练习八段锦起势动作的画面" loading="lazy">
+              <span class="badge">太极八段锦</span>
+            </div>
+            <div class="body">
+              <h3>八段锦入门 8 式全分解（慢速版）</h3>
+              <p class="desc">每式拆成 4 个定格动作，配呼吸口令与常见错误提示。第一式“两手托天理三焦”单独讲了两手上举时肩胛骨该怎么走，零基础跟三遍能记住顺序。</p>
+              <div class="tags"><span class="tag">零基础</span><span class="tag">跟练</span><span class="tag">肩颈</span></div>
+              <div class="meta"><span>时长 26 分钟</span><b>收藏 4.2 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/diyan-hongshao12/400/300" width="400" height="300" alt="低盐版红烧肉在砂锅中收汁的近景" loading="lazy">
+              <span class="badge">养生食谱</span>
+            </div>
+            <div class="body">
+              <h3>低盐红烧肉：钠含量降到 480mg/份</h3>
+              <p class="desc">用干香菇粉和少量腐乳替代一半酱油，实测每份钠从 1120mg 降到 480mg。给出了 500g 五花肉的具体配比，收汁时间精确到分钟。</p>
+              <div class="tags"><span class="tag">控盐</span><span class="tag">家常菜</span><span class="tag">高血压</span></div>
+              <div class="meta"><span>时长 14 分钟</span><b>收藏 3.6 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/xueyao-zaocan23/400/300" width="400" height="300" alt="糖尿病早餐搭配的杂粮粥与鸡蛋摆盘" loading="lazy">
+              <span class="badge">慢病管理</span>
+            </div>
+            <div class="body">
+              <h3>2 型糖尿病一日三餐配比示范</h3>
+              <p class="desc">按 1800 千卡设计，早餐杂粮粥 50g 生重、鸡蛋 1 个、凉拌菠菜 150g。讲清主食称重和“先菜后饭”的进食顺序对餐后血糖的影响。</p>
+              <div class="tags"><span class="tag">血糖</span><span class="tag">配餐</span><span class="tag">称重</span></div>
+              <div class="meta"><span>时长 21 分钟</span><b>收藏 5.1 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/xiguanjie-huli31/400/300" width="400" height="300" alt="坐姿直腿抬高训练膝关节的动作示范" loading="lazy">
+              <span class="badge">关节养护</span>
+            </div>
+            <div class="body">
+              <h3>膝关节养护 10 分钟：直腿抬高与靠墙静蹲</h3>
+              <p class="desc">针对上下楼梯膝盖发软的人群，给出坐姿直腿抬高、靠墙静蹲 30 秒×3 组两个动作。明确写了哪些情况下先别练、该先去看骨科。</p>
+              <div class="tags"><span class="tag">膝盖</span><span class="tag">低冲击</span><span class="tag">居家</span></div>
+              <div class="meta"><span>时长 10 分钟</span><b>收藏 2.9 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/tengchong-lvju18/400/300" width="400" height="300" alt="云南腾冲十一月清晨的温泉小镇街景" loading="lazy">
+              <span class="badge">旅居康养</span>
+            </div>
+            <div class="body">
+              <h3>腾冲 11 月旅居实测：月租 2600 元起</h3>
+              <p class="desc">实拍三个片区的单间与一居室，标出到最近二级医院的车程、菜市场物价和温泉月卡价格。也讲了高原反应与湿气这两件容易被忽略的事。</p>
+              <div class="tags"><span class="tag">云南</span><span class="tag">淡季</span><span class="tag">医疗配套</span></div>
+              <div class="meta"><span>时长 18 分钟</span><b>收藏 2.4 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/shuimian-tiaoli44/400/300" width="400" height="300" alt="夜间卧室床头暖光与助眠的舒缓布置" loading="lazy">
+              <span class="badge">睡眠调理</span>
+            </div>
+            <div class="body">
+              <h3>凌晨三点醒了睡不着：四步应对法</h3>
+              <p class="desc">讲了不要看钟、不要开强光、腹式呼吸 4-7-8 节奏、起床做静坐这四步。也说明了持续两周以上早醒该做哪些检查，不夸大单一方法的效果。</p>
+              <div class="tags"><span class="tag">早醒</span><span class="tag">呼吸法</span><span class="tag">作息</span></div>
+              <div class="meta"><span>时长 13 分钟</span><b>收藏 3.3 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/hechangtuan-shequ59/400/300" width="400" height="300" alt="社区合唱团在活动室排练的合影场景" loading="lazy">
+              <span class="badge">乐活社区</span>
+            </div>
+            <div class="body">
+              <h3>退休第一年：从会计到合唱团低声部长</h3>
+              <p class="desc">跟拍 62 岁的周阿姨一整年，记录她怎么从在家刷手机到每周三次排练。片子里有她第一次登台忘词的片段，也有她算的每月活动开销。</p>
+              <div class="tags"><span class="tag">人物纪录</span><span class="tag">合唱</span><span class="tag">退休适应</span></div>
+              <div class="meta"><span>时长 24 分钟</span><b>收藏 1.8 万</b></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="thumb">
+              <img src="https://picsum.photos/seed/tijian-baogao66/400/300" width="400" height="300" alt="体检报告单上血脂与血糖指标的特写" loading="lazy">
+              <span class="badge">老年体检</span>
+            </div>
+            <div class="body">
+              <h3>体检报告怎么看：血脂四项逐项拆解</h3>
+              <p class="desc">用一份真实脱敏报告讲总胆固醇、甘油三酯、低密度和高密度脂蛋白的区别，说明哪几项超标该挂号、哪几项靠调整饮食三个月复查即可。</p>
+              <div class="tags"><span class="tag">血脂</span><span class="tag">报告解读</span><span class="tag">复查</span></div>
+              <div class="meta"><span>时长 17 分钟</span><b>收藏 4.6 万</b></div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="panel" id="updates">
+        <div class="panel-head">
+          <h2>最新更新与今日动态</h2>
+          <span class="more">截至 2026-11-25 09:30</span>
+        </div>
+        <ul class="update-list">
+          <li><time>今天 09:30</time><span><span class="t">《八段锦第六式 两手攀足》跟练版上线</span><span class="s">新增侧面机位，能看到腰部下压的幅度，时长 12 分钟。</span></span></li>
+          <li><time>今天 08:10</time><span><span class="t">《低盐冬瓜丸子汤》菜谱更新</span><span class="s">把淀粉用量从 15g 调到 10g，口感更清爽，钠含量重新实测。</span></span></li>
+          <li><time>今天 07:00</time><span><span class="t">晨练直播：八段锦全套带练</span><span class="s">教练李维民带练，回放已上传，共 1.8 万人同时在线。</span></span></li>
+          <li><time>昨天 21:10</time><span><span class="t">《血糖生成指数家常对照表》第三期发布</span><span class="s">本期覆盖 22 种常见主食，含米饭、馒头、荞麦面、山药。</span></span></li>
+          <li><time>昨天 18:40</time><span><span class="t">旅居栏目北海篇上线</span><span class="s">给出银海区与海城区两个片区的月租区间和冬季门诊排队情况。</span></span></li>
+          <li><time>昨天 15:20</time><span><span class="t">《膝关节养护 10 分钟》增加字幕版</span><span class="s">按观众反馈补了口令字幕，听力不便也能跟练。</span></span></li>
+          <li><time>11 月 23 日</time><span><span class="t">“退休第一年”第 7 位主人公上线</span><span class="s">本期主角是 65 岁的前公交司机，拍了他学书法的头三个月。</span></span></li>
+          <li><time>11 月 22 日</time><span><span class="t">睡眠栏目新增《午睡 20 分钟与 40 分钟的区别》</span><span class="s">引用了两篇睡眠时长研究，说明午睡过久对夜间入睡的影响。</span></span></li>
+          <li><time>11 月 20 日</time><span><span class="t">社区合唱团线下见面会报名开启</span><span class="s">12 月 6 日在杭州拱墅区文化馆，限额 120 人，已报 78 人。</span></span></li>
+          <li><time>11 月 19 日</time><span><span class="t">《体检报告怎么看》系列更新血脂篇</span><span class="s">补了低密度脂蛋白的参考区间随年龄变化的说明。</span></span></li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="panel" id="categories">
+        <div class="panel-head">
+          <h2>八个主要分类</h2>
+          <span class="more">按内容方向进入</span>
+        </div>
+        <div class="cat-grid">
+          <a class="cat-item" href="/#picks"><b>养生食谱</b><span>低盐低脂家常菜、控糖主食、节气汤水，附克数与钠含量。</span></a>
+          <a class="cat-item" href="/#picks"><b>太极八段锦</b><span>八段锦、五禽戏、太极二十四式，分解版与跟练版双机位。</span></a>
+          <a class="cat-item" href="/#picks"><b>慢病管理</b><span>高血压、2 型糖尿病、高血脂的日常饮食与用药记录方法。</span></a>
+          <a class="cat-item" href="/#picks"><b>关节养护</b><span>膝、腰、肩颈、平衡能力四类问题的低冲击训练与禁忌提示。</span></a>
+          <a class="cat-item" href="/#picks"><b>睡眠调理</b><span>入睡困难、早醒、午睡时长，呼吸法与作息调整的具体做法。</span></a>
+          <a class="cat-item" href="/#picks"><b>旅居康养</b><span>云南、广西、贵州等地淡季实测：月租、医疗配套、物价。</span></a>
+          <a class="cat-item" href="/#picks"><b>乐活社区</b><span>合唱团、骑行队、老年大学、乡村小院的真实人物纪录。</span></a>
+          <a class="cat-item" href="/#picks"><b>老年体检</b><span>体检项目怎么选、报告单逐项解读、复查时间怎么定。</span></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="panel article" id="deep">
+        <div class="panel-head">
+          <h2>深度解析：中老年健康视频，怎么挑才不浪费时间</h2>
+          <span class="more">阅读约 8 分钟</span>
+        </div>
+
+        <p>
+          打开任何一个视频平台搜“养生”，你会看到大量互相矛盾的说法：有人说每天一万步，有人说走多了伤膝盖；有人说喝粥养胃，有人说粥升糖快。对 55 岁以上的人来说，真正的问题不是信息太少，而是没法判断哪条能用在自己身上。下面按几个具体维度拆开讲。
+        </p>
+
+        <h3>一、先分清“功法类”和“知识类”，两者的判断标准完全不同</h3>
+        <p>
+          功法类视频——八段锦、五禽戏、太极、拉伸——核心看三件事：有没有分解动作、有没有说明禁忌、有没有给呼吸节奏。一条合格的八段锦教学，应该能让你在暂停后看清手的位置、脚的角度和重心的落点。如果全程只有远景跟练、没有一句口令，对零基础的人基本无效。快乐久久长寿久久的八段锦栏目之所以做双版本，就是因为慢速分解版解决“学得会”，正常速跟练版解决“练得顺”，两个需求不能合并。
+        </p>
+        <p>
+          知识类视频——饮食配比、指标解读、用药提醒——要看的是数据有没有出处、有没有限定条件。比如讲“低盐”，只说“少放盐”没有意义，得说清每天钠摄入控制在多少毫克、用什么替代、替代后口味差多少。我们做低盐红烧肉那一集，把每份钠含量从 1120mg 压到 480mg 的具体做法写进了画面，就是为了让观众能复现，而不是听完点头就忘。
+        </p>
+
+        <h3>二、慢病相关内容，先看它有没有划清“能做”和“该看医生”的界线</h3>
+        <p>
+          这是最容易出问题的一类。真正负责任的内容，会在开头就说明适用范围。以膝关节养护为例：
+        </p>
+        <ul>
+          <li>适合自己练的：上下楼轻微发软、久坐后起身僵硬、没有明显肿胀。</li>
+          <li>应该先就医的：关节红肿发热、夜间静息痛、走路突然打软腿、有明确外伤史。</li>
+          <li>练的时候出现这些就停：刺痛、关节内有卡顿感、练完两小时仍酸胀。</li>
+        </ul>
+        <p>
+          这三条界线比动作本身更重要。任何一条视频如果对禁忌只字不提，只强调“坚持就有效”，对中老年观众来说风险偏高。我们所有涉及关节和慢病的片子，都会在片头用字幕打出适用范围，这不是免责声明，而是内容的一部分。
+        </p>
+
+        <h3>三、饮食内容看“可称量”，不看“有营养”</h3>
+        <p>
+          “多吃蔬菜水果”这类话对谁都没帮助。有用的饮食内容，一定给出可以称量的数字。以 2 型糖尿病的一日三餐为例，我们按 1800 千卡做了配比：
+        </p>
+        <ul>
+          <li>早餐：杂粮粥 50g 生重、鸡蛋 1 个、凉拌菠菜 150g；</li>
+          <li>午餐：糙米饭 75g 生重、清蒸鱼 100g、炒青菜 200g、烹调油 8g；</li>
+          <li>晚餐：荞麦面 60g 生重、豆腐 100g、菌菇汤 1 碗；</li>
+          <li>加餐：无糖酸奶 100g 或原味坚果 10g。</li>
+        </ul>
+        <p>
+          这套配比的关键不在于数字本身精确，而在于它把“吃多少”变成了可以用厨房秤复核的动作。不同体重、不同活动量的人需要调整，但有了这个基准，调整才有参照。同时要说明进食顺序：先吃蔬菜、再吃蛋白质、最后吃主食，对餐后血糖曲线的影响在多项研究里都有体现，这不是玄学。
+        </p>
+
+        <h3>四、旅居内容最容易注水，看它敢不敢写“不适合谁”</h3>
+        <p>
+          旅居康养类视频的常见问题是只拍风景和便宜房租，不拍医院和菜市场。判断一条旅居内容是否可信，可以看四个具体项：
+        </p>
+        <ul>
+          <li>到最近二级以上医院的车程和挂号方式；</li>
+          <li>当月真实月租区间，而不是“低至”价格；</li>
+          <li>本地菜市场主要食材的价格，尤其是绿叶菜和蛋白质；</li>
+          <li>明确写出不适合的人群，比如海拔、湿度、医疗资源短板。</li>
+        </ul>
+        <p>
+          我们在腾冲那一集里写了海拔约 1640 米、部分心肺功能较弱的人需要适应期；在北海那一集里写了冬季回南天对关节不适人群的影响。这些负面信息恰恰是决策依据，比再多美景镜头都有用。
+        </p>
+
+        <h3>五、乐活社区内容的价值在“样本”，不在“榜样”</h3>
+        <p>
+          退休生活纪录最容易拍成励志宣传片。我们更愿意把它当成样本库：62 岁从会计转合唱团低声部长、65 岁前公交司机学书法、58 岁开始骑行环湖。这些人的共同点不是“活得精彩”，而是都经历了一段找不到节奏的过渡期。把这些过渡期拍出来，比只拍结果对观众更有参考价值。看这类内容时，建议关注三个细节：他们每周固定安排了几件事、每月为此花多少钱、家人态度是怎么转变的。
+        </p>
+
+        <div class="compare">
+          <div class="box">
+            <h4>值得存下来的视频</h4>
+            <p>有分解动作、有克数、有适用与禁忌范围、有具体地点与价格、片尾给出可执行的下一步。</p>
+          </div>
+          <div class="box">
+            <h4>可以跳过的视频</h4>
+            <p>只讲原则不给数字、只讲好处不讲风险、全程远景无口令、通篇“坚持就有效”的万能结论。</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="panel" id="guide">
+        <div class="panel-head">
+          <h2>第一次看，按这个顺序走</h2>
+          <span class="more">适合刚接触的新观众</span>
+        </div>
+        <ol class="steps">
+          <li><b>先用一周打动作基础</b><span>看《八段锦入门 8 式全分解（慢速版）》，每天跟 2 式，一周过完一轮。别急着上正常速。</span></li>
+          <li><b>再挑一个饮食切入点</b><span>如果血压偏高，从《低盐红烧肉》这类控盐菜入手；如果血糖偏高，先看《2 型糖尿病一日三餐配比示范》。只改一件事，坚持两周。</span></li>
+          <li><b>给身体做一次问题排序</b><span>膝盖、腰、肩颈、睡眠，四个方向里选最影响生活的那一个，看对应栏目，别四个同时练。</span></li>
+          <li><b>把体检报告翻出来对照</b><span>看《体检报告怎么看：血脂四项逐项拆解》，标出自己超标的项，记下该复查的时间。</span></li>
+          <li><b>最后再考虑旅居和生活拓展</b><span>身体和饮食有底子之后，再看旅居康养与乐活社区。前者看医疗配套，后者看时间安排样本。</span></li>
+        </ol>
+        <p style="margin-top:14px;font-size:13.5px;color:var(--ink-3)">
+          比较两个同类视频时，用三个问题快速筛：它给了具体数字吗？它说了什么情况下别做吗？它片尾给了一个能今天执行的动作吗？三个都答“是”，就值得花时间。
+        </p>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="panel faq" id="faq">
+        <div class="panel-head">
+          <h2>常见问答</h2>
+          <span class="more">6 个高频问题</span>
+        </div>
+        <details open>
+          <summary>八段锦每天练几遍比较合适，早上还是晚上练？</summary>
+          <div class="ans">零基础阶段每天 1 遍即可，约 12 分钟，重点是动作到位而不是遍数。熟练后可早晚各 1 遍。早上练建议在起床后 30 分钟、吃过少量东西之后，避免空腹低血糖；晚上练尽量在睡前 2 小时完成，以免身体兴奋影响入睡。膝关节不适的人，下蹲幅度减小，不做勉强下压。</div>
+        </details>
+        <details>
+          <summary>低盐饮食是不是完全不能吃酱油和咸菜？</summary>
+          <div class="ans">不是完全禁止，而是控制总量。一般建议每天钠摄入不超过 2000mg（约合食盐 5g）。酱油、腐乳、咸菜都计入这个总量。实操上更有效的做法是用香菇粉、番茄、柠檬、香醋来补味，把酱油用量减半，而不是突然全部停掉——口味落差太大很难坚持。高血压人群可以先从“菜出锅前再放盐”这一件事做起。</div>
+        </details>
+        <details>
+          <summary>血糖生成指数（GI）和血糖负荷（GL）有什么区别，看哪个更准？</summary>
+          <div class="ans">GI 只反映某种食物升糖的快慢，不考虑你吃了多少；GL 把摄入量算了进去，等于 GI 乘以该食物中可利用碳水化合物的克数再除以 100。同一种食物吃一小口和吃一大碗，对血糖的影响完全不同，所以只看 GI 容易误判，比如西瓜 GI 偏高但少量吃 GL 并不高。日常配餐建议以 GL 为主、GI 为辅，并配合称重。</div>
+        </details>
+        <details>
+          <summary>膝盖上下楼发软，是先练力量还是先去医院？</summary>
+          <div class="ans">如果只是发软、没有红肿热痛和夜间静息痛，可以先做低冲击的力量训练，比如坐姿直腿抬高、靠墙静蹲 30 秒×3 组，坚持 4 周观察。如果出现关节肿胀发热、走路突然打软腿、夜间痛醒，或近期有扭伤摔倒，应先到骨科或运动医学科就诊，做影像检查后再决定训练方案。训练中出现刺痛或关节卡顿感应立即停止。</div>
+        </details>
+        <details>
+          <summary>第一次接触旅居康养，选云南还是广西更稳妥？</summary>
+          <div class="ans">两地差异主要在海拔和湿度。云南腾冲海拔约 1640 米，气候干爽、昼夜温差大，心肺功能较弱的人需要适应期；广西北海海拔低、冬季温暖，但 11 月至次年 3 月回南天湿气重，关节不适人群要留意。医疗配套上，两地城区都有二级以上医院，但县级区域资源有限。建议第一次旅居先选 1 个月短租试住，重点考察到医院的車程和菜市场距离，再决定是否延长。</div>
+        </details>
+        <details>
+          <summary>凌晨三四点醒了睡不着，该不该起来看手机？</summary>
+          <div class="ans">不建议。屏幕强光会抑制褪黑素分泌，让再次入睡更难。可以试四步：一是不看钟，避免计算“还剩几小时”；二是不开强光，只留微弱地灯；三是做 4-7-8 腹式呼吸（吸气 4 秒、屏息 7 秒、呼气 8 秒）重复 8 轮；四是 20 分钟后仍无睡意，起床到另一间房做静态活动，有困意再回床。如果早醒持续两周以上并伴随情绪低落，建议到睡眠门诊或老年科评估。</div>
+        </details>
+      </section>
+
+      <!-- 8 用户评论 -->
+      <section class="panel" id="comments">
+        <div class="panel-head">
+          <h2>观众怎么说</h2>
+          <span class="more">近 30 天 14 条代表性评论</span>
+        </div>
+        <div class="comments">
+
+          <div class="comment">
+            <div class="who"><span class="avatar">陈</span><span class="name">陈桂芳</span><span class="time">今天 08:42</span></div>
+            <p>八段锦慢速版真的救了我。以前跟着别的视频练，手举到哪儿全凭感觉，现在每一式都有定格，练完肩膀松多了。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">王</span><span class="name">王建民</span><span class="time">昨天 22:15</span></div>
+            <p>低盐红烧肉试了两次，家里人没吃出差别，我血压这周测下来确实稳一点。就是香菇粉得提前备。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">李</span><span class="name">李秀兰</span><span class="time">昨天 19:30</span></div>
+            <p>糖尿病那集讲到先菜后饭，我照着调整了进食顺序，餐后两小时血糖从 11 降到 9 左右，当然也在按时吃药。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">赵</span><span class="name">赵德海</span><span class="time">11 月 24 日</span></div>
+            <p>腾冲那集讲得实在，连挂号方式都拍了。不过我觉得月租 2600 起有点乐观，我十月去问的都要三千出头。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">刘</span><span class="name">刘玉梅</span><span class="time">11 月 24 日</span></div>
+            <p>膝关节那集提醒了哪些情况先别练，这个很重要。我之前硬练深蹲，结果肿了三天，现在改成直腿抬高了。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">孙</span><span class="name">孙志强</span><span class="time">11 月 23 日</span></div>
+            <p>血脂四项那集我看了三遍，把报告单上每项都对照了一遍。低密度那个数值确实得重视，已经约了门诊。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">周</span><span class="name">周慧敏</span><span class="time">11 月 23 日</span></div>
+            <p>合唱团那期看哭了。我退休第二年也是这样，天天在家刷手机，后来去社区报名学声乐才好起来。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">吴</span><span class="name">吴国庆</span><span class="time">11 月 22 日</span></div>
+            <p>睡眠那集讲的 4-7-8 呼吸我试了一周，有两天确实能再睡着。但也不是每次都灵，可能得长期坚持。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">郑</span><span class="name">郑丽华</span><span class="time">11 月 21 日</span></div>
+            <p>建议多拍点五禽戏，八段锦已经练熟了想换换。另外希望动作讲解能再慢一点，我七十多了反应跟不上。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">冯</span><span class="name">冯长林</span><span class="time">11 月 20 日</span></div>
+            <p>北海那集提到回南天对关节的影响，我就住那边，确实是这样。这种负面信息别的地方基本不讲，挺好。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">何</span><span class="name">何淑珍</span><span class="time">11 月 19 日</span></div>
+            <p>午睡那集让我改了习惯，以前一睡一个半小时，晚上就睡不着。现在控制在二十分钟，夜里好多了。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">许</span><span class="name">许振国</span><span class="time">11 月 18 日</span></div>
+            <p>内容不错，就是有些菜谱的食材在小城市买不到。希望能标注一下可替代的食材，比如香菇粉用什么代替。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">杨</span><span class="name">杨美玲</span><span class="time">11 月 17 日</span></div>
+            <p>跟着练八段锦三个月，体检时医生说柔韧性比去年好。当然我也在散步，不能全归功于视频。</p>
+          </div>
+
+          <div class="comment">
+            <div class="who"><span class="avatar">高</span><span class="name">高志远</span><span class="time">11 月 15 日</span></div>
+            <p>希望讲用药提醒的那类内容再多一些，比如降压药什么时间吃比较好，这块信息我一直没找到靠谱的。</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="panel" id="news">
+        <div class="panel-head">
+          <h2>社区资讯</h2>
+          <span class="more">2026 年 11 月</span>
+        </div>
+        <div class="news-list">
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-baduanjin01/600/400" width="600" height="400" alt="八段锦重制版拍摄现场的多机位布置" loading="lazy">
+            <div>
+              <span class="date">2026-11-25</span>
+              <h4>八段锦全 8 式重制版完成，新增侧面机位</h4>
+              <p>历时两个月重拍，每式提供慢速分解与正常速跟练两个版本，侧面机位用于观察腰部与膝关节角度。</p>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-gi-biao02/600/400" width="600" height="400" alt="常见主食血糖生成指数对照表打印稿" loading="lazy">
+            <div>
+              <span class="date">2026-11-24</span>
+              <h4>《血糖生成指数家常对照表》第三期覆盖 22 种主食</h4>
+              <p>新增荞麦面、山药、芋头、玉米糁等条目，同时给出对应的血糖负荷估算值，方便配餐时换算。</p>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-beihai03/600/400" width="600" height="400" alt="北海银海区冬季街景与民宿外立面" loading="lazy">
+            <div>
+              <span class="date">2026-11-23</span>
+              <h4>北海旅居实测上线，重点讲回南天与门诊排队</h4>
+              <p>给出银海区、海城区两个片区月租区间，并记录了冬季呼吸科与骨科门诊的实际等候时间。</p>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-hechang04/600/400" width="600" height="400" alt="社区合唱团线下见面会活动室排练现场" loading="lazy">
+            <div>
+              <span class="date">2026-11-20</span>
+              <h4>社区合唱团 12 月 6 日杭州见面会开放报名</h4>
+              <p>地点在拱墅区文化馆，限额 120 人，现场设低声部与高声部分组试唱，已报名 78 人。</p>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-tijian05/600/400" width="600" height="400" alt="老年体检套餐项目清单与价格对照" loading="lazy">
+            <div>
+              <span class="date">2026-11-19</span>
+              <h4>血脂篇补充年龄分层参考区间说明</h4>
+              <p>针对 60 岁以上人群，补充了低密度脂蛋白参考值随年龄与基础疾病变化的说明，并列出复查建议周期。</p>
+            </div>
+          </article>
+
+          <article class="news-item">
+            <img src="https://picsum.photos/seed/zixun-shuimian06/600/400" width="600" height="400" alt="睡眠时长研究数据图表与午睡时长对照" loading="lazy">
+            <div>
+              <span class="date">2026-11-16</span>
+              <h4>午睡时长专题引发社区讨论，观众分享作息调整经验</h4>
+              <p>该期节目上线后收到 320 余条评论，多数观众反馈将午睡控制在 20 至 30 分钟后夜间入睡更快。</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="panel" id="related">
+        <div class="panel-head">
+          <h2>延伸方向</h2>
+          <span class="more">看完精选后可以往这些方向走</span>
+        </div>
+        <div class="reco-tags">
+          <a href="/#picks">五禽戏逐式分解</a>
+          <a href="/#picks">太极二十四式慢练</a>
+          <a href="/#picks">平衡能力训练防跌倒</a>
+          <a href="/#picks">高血压人群的钾摄入</a>
+          <a href="/#picks">肩颈僵硬的毛巾操</a>
+          <a href="/#picks">老年大学报名指南</a>
+          <a href="/#picks">乡村小院改造实录</a>
+          <a href="/#picks">降压药服用时间答疑</a>
+        </div>
+      </section>
+
+      <!-- 11 补充板块：榜单 + 时间线 -->
+      <section class="panel" id="extra">
+        <div class="panel-head">
+          <h2>本月社区热度榜与拍摄时间线</h2>
+          <span class="more">统计区间 2026-10-26 至 2026-11-25</span>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px" class="extra-grid">
+          <div>
+            <h3 style="font-size:15px;color:var(--brand-deep);margin-bottom:10px">11 月收藏量前 6</h3>
+            <ol class="rank-list">
+              <li><span class="rank-no">1</span><span><span class="rt">2 型糖尿病一日三餐配比示范</span><span class="rs">收藏 5.1 万 · 慢病管理</span></span></li>
+              <li><span class="rank-no">2</span><span><span class="rt">体检报告怎么看：血脂四项逐项拆解</span><span class="rs">收藏 4.6 万 · 老年体检</span></span></li>
+              <li><span class="rank-no">3</span><span><span class="rt">八段锦入门 8 式全分解（慢速版）</span><span class="rs">收藏 4.2 万 · 太极八段锦</span></span></li>
+              <li><span class="rank-no">4</span><span><span class="rt">低盐红烧肉：钠含量降到 480mg/份</span><span class="rs">收藏 3.6 万 · 养生食谱</span></span></li>
+              <li><span class="rank-no">5</span><span><span class="rt">凌晨三点醒了睡不着：四步应对法</span><span class="rs">收藏 3.3 万 · 睡眠调理</span></span></li>
+              <li><span class="rank-no">6</span><span><span class="rt">膝关节养护 10 分钟</span><span class="rs">收藏 2.9 万 · 关节养护</span></span></li>
+            </ol>
+          </div>
+          <div>
+            <h3 style="font-size:15px;color:var(--brand-deep);margin-bottom:10px">近期拍摄与上线节点</h3>
+            <ul class="timeline">
+              <li><b>11 月 25 日 · 八段锦第六式跟练版上线</b><span>重制计划最后一式，全 8 式完成</span></li>
+              <li><b>11 月 23 日 · 北海旅居篇发布</b><span>实地拍摄 9 天，走访 3 个片区</span></li>
+              <li><b>11 月 18 日 · 血糖对照表第二期拍摄</b><span>联合营养师核对 22 种主食数据</span></li>
+              <li><b>11 月 10 日 · 膝关节养护字幕版补录</b><span>根据 400 余条观众反馈调整</span></li>
+              <li><b>10 月 29 日 · 退休第一年第七位主角开拍</b><span>跟拍周期 3 个月，预计 12 月上线</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- 右栏辅助 -->
+    <aside class="side-right">
+      <div class="panel">
+        <div class="panel-head" style="margin-bottom:12px">
+          <h2 style="font-size:16px">今日热门</h2>
+        </div>
+        <ol class="rank-list">
+          <li><span class="rank-no">1</span><span><span class="rt">八段锦第六式跟练版</span><span class="rs">今天 09:30 上线</span></span></li>
+          <li><span class="rank-no">2</span><span><span class="rt">低盐冬瓜丸子汤</span><span class="rs">今天 08:10 更新</span></span></li>
+          <li><span class="rank-no">3</span><span><span class="rt">血糖生成指数对照表第三期</span><span class="rs">昨天 21:10</span></span></li>
+          <li><span class="rank-no">4</span><span><span class="rt">北海旅居实测</span><span class="rs">昨天 18:40</span></span></li>
+          <li><span class="rank-no">5</span><span><span class="rt">膝关节养护 10 分钟</span><span class="rs">昨天 15:20</span></span></li>
+          <li><span class="rank-no">6</span><span><span class="rt">退休第一年 第 7 位</span><span class="rs">11 月 23 日</span></span></li>
+        </ol>
+      </div>
+
+      <div class="panel" style="background:var(--brand-soft);border-color:#cfe6da">
+        <h3 style="font-size:15px;color:var(--brand-deep);margin-bottom:8px">今晚 20:00 直播</h3>
+        <p style="font-size:13.5px;color:var(--ink-2);margin-bottom:12px">
+          主题：膝关节养护答疑。康复师现场回答观众提问，讲清哪些疼能练、哪些必须去门诊。
+        </p>
+        <a class="btn btn-primary" style="padding:8px 18px;font-size:14px" href="/#updates">查看直播预告</a>
+      </div>
+
+      <div class="panel">
+        <div class="panel-head" style="margin-bottom:12px">
+          <h2 style="font-size:16px">栏目更新节奏</h2>
+        </div>
+        <ul style="list-style:none;margin:0;padding:0;font-size:13.5px;color:var(--ink-2);display:grid;gap:9px">
+          <li>太极八段锦：每周二、五更新</li>
+          <li>养生食谱：每周三、六更新</li>
+          <li>慢病管理：每两周一期</li>
+          <li>旅居康养：每月 2 期实地</li>
+          <li>乐活社区：每周日更新</li>
+        </ul>
+      </div>
+    </aside>
+
+  </div>
+</div>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="brand-text">快乐久久长寿久久</span>
+        <p>中老年健康生活视频品牌。把养生、运动、慢病管理、旅居与退休生活拍成能跟着做、能复核的短片。内容由营养师、康复师与编导团队共同制作，涉及医疗判断的部分均标注适用范围与就医提示。</p>
+      </div>
+      <div class="footer-col">
+        <h4>内容栏目</h4>
+        <ul>
+          <li><a href="/#categories">养生食谱</a></li>
+          <li><a href="/#categories">太极八段锦</a></li>
+          <li><a href="/#categories">慢病管理</a></li>
+          <li><a href="/#categories">关节养护</a></li>
+          <li><a href="/#categories">睡眠调理</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>生活方向</h4>
+        <ul>
+          <li><a href="/#categories">旅居康养</a></li>
+          <li><a href="/#categories">乐活社区</a></li>
+          <li><a href="/#categories">老年体检</a></li>
+          <li><a href="/#categories">心理陪伴</a></li>
+          <li><a href="/#categories">隔代育儿</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>了解我们</h4>
+        <ul>
+          <li><a href="/#overview">品牌概览</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">观看指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">观众评论</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>页面内视频条目、热度、评分与评论均为示例内容，不构成医疗建议。身体不适请及时就医。</p>
+      <p>© 2026 快乐久久长寿久久 · 内容更新至 2026 年 11 月 25 日</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.getElementById('navToggle');
+  var nav = document.getElementById('mainNav');
+  if(toggle && nav){
+    toggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+})();
+</script>
+</body>
+                                  </html>
